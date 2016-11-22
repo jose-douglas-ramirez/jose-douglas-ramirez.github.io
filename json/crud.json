@@ -1,0 +1,401 @@
+[
+ {
+  "name": "Component",
+  "schema" : [
+        {            
+            "key": "name",
+            "type": "input",
+            "templateOptions": {
+                "label": "Name",
+                "placeholder": "Name",
+                "required": true
+            }
+        },
+        {            
+            "key": "description",
+            "type": "textarea",
+            "templateOptions": {
+                "label": "Description",
+                "placeholder": "Description"
+            }
+        },
+        {            
+            "key": "dateCreated",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date created",
+                "placeholder": "Date created",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateModified",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date Modified",
+                "placeholder": "Date Modified",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "isDeleted",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is deleted",
+                "placeholder": "is deleted",
+                "disabled": true
+            }
+        }
+    ]
+  },
+
+  {
+  "name": "AutoPopulateFields",
+  "schema" : [
+        {            
+            "key": "name",
+            "type": "input",
+            "templateOptions": {
+                "label": "Name",
+                "placeholder": "Name",
+                "required": true
+            }
+        },
+        {            
+            "key": "fieldName",
+            "type": "input",
+            "templateOptions": {
+                "label": "Field name",
+                "placeholder": "Field name"
+            }
+        },
+        {            
+            "key": "fieldValue",
+            "type": "input",
+            "templateOptions": {
+                "label": "Field value",
+                "placeholder": "Field value"
+            }
+        },
+        {            
+            "key": "description",
+            "type": "textarea",
+            "templateOptions": {
+                "label": "Description",
+                "placeholder": "Description"
+            }
+        },
+        {            
+            "key": "alowwUserEdit",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Allow user edit",
+                "placeholder": "Allow user edit",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateCreated",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date created",
+                "placeholder": "Date created",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateModified",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date Modified",
+                "placeholder": "Date Modified",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "isDeleted",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is deleted",
+                "placeholder": "is deleted",
+                "disabled": true
+            }
+        }
+    ]
+  },
+
+  {
+  "name": "ComponentDataBase",
+  "schema" : [
+        {            
+            "key": "serverName",
+            "type": "input",
+            "templateOptions": {
+                "label": "Server name",
+                "placeholder": "Server name",
+                "required": true
+            }
+        },
+        {            
+            "key": "dbName",
+            "type": "input",
+            "templateOptions": {
+                "label": "Db name",
+                "placeholder": "Db name"
+            }
+        },
+        {            
+            "key": "instance",
+            "type": "input",
+            "templateOptions": {
+                "label": "Instance",
+                "placeholder": "Instance"
+            }
+        },
+        {            
+            "key": "port",
+            "type": "input",
+            "templateOptions": {
+                "label": "Input",
+                "placeholder": "Input"
+            }
+        },        
+        {            
+            "key": "dateCreated",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date created",
+                "placeholder": "Date created",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateModified",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date Modified",
+                "placeholder": "Date Modified",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "isDeleted",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is deleted",
+                "placeholder": "is deleted",
+                "disabled": true
+            }
+        }
+    ]
+  },
+
+  {
+  "name": "ComponentType",
+  "schema" : [
+        {            
+            "key": "name",
+            "type": "input",
+            "templateOptions": {
+                "label": "Name",
+                "placeholder": "Name",
+                "required": true
+            }
+        },
+        {            
+            "key": "description",
+            "type": "input",
+            "templateOptions": {
+                "label": "Db name",
+                "placeholder": "Db name"
+            }
+        },        
+        {            
+            "key": "dateCreated",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date created",
+                "placeholder": "Date created",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateModified",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date Modified",
+                "placeholder": "Date Modified",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "isDeleted",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is deleted",
+                "placeholder": "is deleted",
+                "disabled": true
+            }
+        }
+    ]
+  },
+
+  {
+  "name": "DataTypes",
+  "schema" : [
+        {            
+            "key": "name",
+            "type": "input",
+            "templateOptions": {
+                "label": "Name",
+                "placeholder": "Name",
+                "required": true
+            }
+        },
+        {            
+            "key": "description",
+            "type": "input",
+            "templateOptions": {
+                "label": "Descripcion",
+                "placeholder": "Descripcion"
+            }
+        },        
+        {            
+            "key": "dateCreated",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date created",
+                "placeholder": "Date created",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateModified",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date Modified",
+                "placeholder": "Date Modified",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "isDeleted",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is deleted",
+                "placeholder": "is deleted",
+                "disabled": true
+            }
+        }
+    ]
+  },
+  {
+  "name": "ProcessStructure",
+  "schema" : [
+        {            
+            "key": "fieldName",
+            "type": "input",
+            "templateOptions": {
+                "label": "Field name",
+                "placeholder": "Field name",
+                "required": true
+            }
+        },
+        {            
+            "key": "fieldDescription",
+            "type": "input",
+            "templateOptions": {
+                "label": "Field Descripcion",
+                "placeholder": "Field Descripcion"
+            }
+        },   
+        {            
+            "key": "fieldIsRequired",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is required",
+                "placeholder": "is required",
+                "disabled": true
+            }
+        },     
+        {            
+            "key": "dateCreated",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date created",
+                "placeholder": "Date created",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateModified",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date Modified",
+                "placeholder": "Date Modified",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "isDeleted",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is deleted",
+                "placeholder": "is deleted",
+                "disabled": true
+            }
+        }
+    ]
+  },
+  {
+  "name": "LevelAutoPopulateFields",
+  "schema" : [
+        {            
+            "key": "name",
+            "type": "input",
+            "templateOptions": {
+                "label": "Name",
+                "placeholder": "Name",
+                "required": true
+            }
+        },
+        {            
+            "key": "description",
+            "type": "input",
+            "templateOptions": {
+                "label": "Descripcion",
+                "placeholder": "Descripcion"
+            }
+        },  
+             
+        {            
+            "key": "dateCreated",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date created",
+                "placeholder": "Date created",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "dateModified",
+            "type": "nsuDateFormat",                          
+            "templateOptions": {
+                "label": "Date Modified",
+                "placeholder": "Date Modified",
+                "disabled": true
+            }
+        },
+        {            
+            "key": "isDeleted",
+            "type": "isDeletedAuto",                          
+            "templateOptions": {
+                "label": "Is deleted",
+                "placeholder": "is deleted",
+                "disabled": true
+            }
+        }
+    ]
+  }
+
+]
