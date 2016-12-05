@@ -65,7 +65,8 @@
             "type": "input",
             "templateOptions": {
                 "label": "Field name",
-                "placeholder": "Field name"
+                "placeholder": "Field name",
+                "required": true
             }
         },
         {            
