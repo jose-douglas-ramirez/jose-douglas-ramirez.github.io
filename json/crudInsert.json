@@ -93,33 +93,6 @@
                 "placeholder": "Allow user edit",
                 "disabled": true
             }
-        },
-        {            
-            "key": "dateCreated",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date created",
-                "placeholder": "Date created",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "dateModified",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date Modified",
-                "placeholder": "Date Modified",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "isDeleted",
-            "type": "isDeletedAuto",                          
-            "templateOptions": {
-                "label": "Is deleted",
-                "placeholder": "is deleted",
-                "disabled": true
-            }
         }
     ]
   },
