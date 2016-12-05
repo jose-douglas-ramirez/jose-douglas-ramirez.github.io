@@ -86,7 +86,7 @@
         },
         {            
             "key": "alowwUserEdit",
-            "type": "radio",                          
+            "type": "checkbox",                          
             "templateOptions": {
                 "label": "Allow user edit",
                 "placeholder": "Allow user edit"                
