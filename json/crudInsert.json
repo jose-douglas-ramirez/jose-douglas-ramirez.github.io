@@ -21,11 +21,10 @@
         },
         {            
             "key": "dateCreated",
-            "type": "nsuDateFormat",                          
+            "type": "radio",                          
             "templateOptions": {
                 "label": "Date created",
-                "placeholder": "Date created",
-                "disabled": true
+                "placeholder": "Date created"                
             }
         },
         {            
