@@ -18,32 +18,6 @@
                 "label": "Description",
                 "placeholder": "Description"
             }
-        },
-        {            
-            "key": "dateCreated",
-            "type": "radio",                          
-            "templateOptions": {
-                "label": "Date created",
-                "placeholder": "Date created"                
-            }
-        },
-        {            
-            "key": "dateModified",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date Modified",
-                "placeholder": "Date Modified",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "isDeleted",
-            "type": "isDeletedAuto",                          
-            "templateOptions": {
-                "label": "Is deleted",
-                "placeholder": "is deleted",
-                "disabled": true
-            }
         }
     ]
   },
@@ -131,33 +105,6 @@
                 "label": "Input",
                 "placeholder": "Input"
             }
-        },        
-        {            
-            "key": "dateCreated",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date created",
-                "placeholder": "Date created",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "dateModified",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date Modified",
-                "placeholder": "Date Modified",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "isDeleted",
-            "type": "isDeletedAuto",                          
-            "templateOptions": {
-                "label": "Is deleted",
-                "placeholder": "is deleted",
-                "disabled": true
-            }
         }
     ]
   },
@@ -181,33 +128,6 @@
                 "label": "Db name",
                 "placeholder": "Db name"
             }
-        },        
-        {            
-            "key": "dateCreated",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date created",
-                "placeholder": "Date created",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "dateModified",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date Modified",
-                "placeholder": "Date Modified",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "isDeleted",
-            "type": "isDeletedAuto",                          
-            "templateOptions": {
-                "label": "Is deleted",
-                "placeholder": "is deleted",
-                "disabled": true
-            }
         }
     ]
   },
@@ -230,33 +150,6 @@
             "templateOptions": {
                 "label": "Descripcion",
                 "placeholder": "Descripcion"
-            }
-        },        
-        {            
-            "key": "dateCreated",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date created",
-                "placeholder": "Date created",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "dateModified",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date Modified",
-                "placeholder": "Date Modified",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "isDeleted",
-            "type": "isDeletedAuto",                          
-            "templateOptions": {
-                "label": "Is deleted",
-                "placeholder": "is deleted",
-                "disabled": true
             }
         }
     ]
@@ -289,33 +182,6 @@
                 "placeholder": "is required",
                 "disabled": true
             }
-        },     
-        {            
-            "key": "dateCreated",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date created",
-                "placeholder": "Date created",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "dateModified",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date Modified",
-                "placeholder": "Date Modified",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "isDeleted",
-            "type": "isDeletedAuto",                          
-            "templateOptions": {
-                "label": "Is deleted",
-                "placeholder": "is deleted",
-                "disabled": true
-            }
         }
     ]
   },
@@ -338,36 +204,7 @@
                 "label": "Descripcion",
                 "placeholder": "Descripcion"
             }
-        },  
-             
-        {            
-            "key": "dateCreated",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date created",
-                "placeholder": "Date created",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "dateModified",
-            "type": "nsuDateFormat",                          
-            "templateOptions": {
-                "label": "Date Modified",
-                "placeholder": "Date Modified",
-                "disabled": true
-            }
-        },
-        {            
-            "key": "isDeleted",
-            "type": "isDeletedAuto",                          
-            "templateOptions": {
-                "label": "Is deleted",
-                "placeholder": "is deleted",
-                "disabled": true
-            }
         }
     ]
   }
-
 ]
