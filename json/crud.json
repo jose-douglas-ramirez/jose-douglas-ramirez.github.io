@@ -5,7 +5,6 @@
         {            
             "key": "name",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Name",
                 "placeholder": "Name",
@@ -15,7 +14,6 @@
         {            
             "key": "description",
             "type": "textarea",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Description",
                 "placeholder": "Description"
@@ -23,7 +21,7 @@
         },
         {            
             "key": "dateCreated",
-            "type": "nsuDateFormat",            
+            "type": "nsuDateFormat",                          
             "templateOptions": {
                 "label": "Date created",
                 "placeholder": "Date created",
@@ -57,7 +55,6 @@
         {            
             "key": "name",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Name",
                 "placeholder": "Name",
@@ -67,7 +64,6 @@
         {            
             "key": "fieldName",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Field name",
                 "placeholder": "Field name"
@@ -76,7 +72,6 @@
         {            
             "key": "fieldValue",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Field value",
                 "placeholder": "Field value"
@@ -85,7 +80,6 @@
         {            
             "key": "description",
             "type": "textarea",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Description",
                 "placeholder": "Description"
@@ -136,7 +130,6 @@
         {            
             "key": "serverName",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Server name",
                 "placeholder": "Server name",
@@ -146,7 +139,6 @@
         {            
             "key": "dbName",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Db name",
                 "placeholder": "Db name"
@@ -155,7 +147,6 @@
         {            
             "key": "instance",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Instance",
                 "placeholder": "Instance"
@@ -164,7 +155,6 @@
         {            
             "key": "port",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Input",
                 "placeholder": "Input"
@@ -206,7 +196,6 @@
         {            
             "key": "name",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Name",
                 "placeholder": "Name",
@@ -216,7 +205,6 @@
         {            
             "key": "description",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Db name",
                 "placeholder": "Db name"
@@ -258,7 +246,6 @@
         {            
             "key": "name",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Name",
                 "placeholder": "Name",
@@ -268,7 +255,6 @@
         {            
             "key": "description",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Descripcion",
                 "placeholder": "Descripcion"
@@ -309,7 +295,6 @@
         {            
             "key": "fieldName",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Field name",
                 "placeholder": "Field name",
@@ -319,7 +304,6 @@
         {            
             "key": "fieldDescription",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Field Descripcion",
                 "placeholder": "Field Descripcion"
@@ -369,7 +353,6 @@
         {            
             "key": "name",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Name",
                 "placeholder": "Name",
@@ -379,7 +362,6 @@
         {            
             "key": "description",
             "type": "input",
-            "showOnInsert": true,
             "templateOptions": {
                 "label": "Descripcion",
                 "placeholder": "Descripcion"
@@ -388,7 +370,7 @@
              
         {            
             "key": "dateCreated",
-            "type": "nsuDateFormat",                                    
+            "type": "nsuDateFormat",                          
             "templateOptions": {
                 "label": "Date created",
                 "placeholder": "Date created",
