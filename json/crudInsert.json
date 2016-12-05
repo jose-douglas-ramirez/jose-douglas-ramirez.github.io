@@ -86,11 +86,10 @@
         },
         {            
             "key": "alowwUserEdit",
-            "type": "isDeletedAuto",                          
+            "type": "radio",                          
             "templateOptions": {
                 "label": "Allow user edit",
-                "placeholder": "Allow user edit",
-                "disabled": true
+                "placeholder": "Allow user edit"                
             }
         }
     ]
