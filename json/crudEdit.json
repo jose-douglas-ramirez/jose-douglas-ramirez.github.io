@@ -310,6 +310,15 @@
             }
         },   
         {            
+            "key": "process.name",
+            "type": "input",                          
+            "templateOptions": {
+                "label": "Is required",
+                "placeholder": "is required",
+                "disabled": true
+            }
+        },
+        {            
             "key": "fieldIsRequired",
             "type": "isDeletedAuto",                          
             "templateOptions": {
