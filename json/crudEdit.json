@@ -313,7 +313,7 @@
             "key": "process.name",
             "type": "input",                          
             "templateOptions": {
-                "label": "Is required",
+                "label": "Document",
                 "placeholder": "is required",
                 "disabled": true
             }
