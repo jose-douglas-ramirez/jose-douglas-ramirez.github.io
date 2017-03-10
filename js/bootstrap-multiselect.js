@@ -1699,8 +1699,10 @@
 }(window.jQuery);
 
 try {
-    $("#pcont > div.cl-mcont.ng-scope > div > div > div").height("100%");
+    setTimeout(function(){ 
+        debugger
+        $("#pcont > div.cl-mcont.ng-scope > div > div > div").height("100%");
+    3000);   
 }
 catch(err) {
-    
 }
