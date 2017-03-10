@@ -1699,8 +1699,7 @@
 }(window.jQuery);
 
 try {
-    setTimeout(function(){ 
-        debugger
+    setTimeout(function(){         
         $("#pcont > div.cl-mcont.ng-scope > div > div > div").height("100%");
     },5000);   
 }
