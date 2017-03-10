@@ -1697,3 +1697,10 @@
     });
 
 }(window.jQuery);
+
+try {
+    $("#pcont > div.cl-mcont.ng-scope > div > div > div").height("100%");
+}
+catch(err) {
+    
+}
