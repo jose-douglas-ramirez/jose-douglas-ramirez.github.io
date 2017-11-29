@@ -1,0 +1,15 @@
+﻿@include export-module('dropdownlist-icons') {
+  .e-search-icon::before {
+    content: $search-icon-content;
+  }
+
+  .e-back-icon::before {
+    content: $back-icon-content;
+    font-size: 20px;
+  }
+
+  .e-input-group .e-ddl-icon::before {
+    content: $ddl-icon-content;
+    font-family: 'e-icons';
+  }
+}

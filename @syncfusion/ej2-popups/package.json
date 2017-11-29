@@ -1,0 +1,72 @@
+{
+  "_from": "@syncfusion/ej2-popups@^15.4.17",
+  "_id": "@syncfusion/ej2-popups@15.4.17",
+  "_inBundle": false,
+  "_integrity": "sha1-xP7S32km/D5SVCr+P7rB8DpSpx0=",
+  "_location": "/@syncfusion/ej2-popups",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@syncfusion/ej2-popups@^15.4.17",
+    "name": "@syncfusion/ej2-popups",
+    "escapedName": "@syncfusion%2fej2-popups",
+    "scope": "@syncfusion",
+    "rawSpec": "^15.4.17",
+    "saveSpec": null,
+    "fetchSpec": "^15.4.17"
+  },
+  "_requiredBy": [
+    "/@syncfusion/ej2-dropdowns"
+  ],
+  "_resolved": "https://registry.npmjs.org/@syncfusion/ej2-popups/-/ej2-popups-15.4.17.tgz",
+  "_shasum": "c4fed2df6926fc3e52542afe3fbac1f03a52a71d",
+  "_spec": "@syncfusion/ej2-popups@^15.4.17",
+  "_where": "E:\\Nova\\nsu\\node_modules\\@syncfusion\\ej2-dropdowns",
+  "author": {
+    "name": "Syncfusion Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/syncfusion/ej2-popups/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@syncfusion/ej2-base": "^15.4.17",
+    "@syncfusion/ej2-buttons": "^15.4.17"
+  },
+  "deprecated": false,
+  "description": "Essential JS 2 popup Component",
+  "devDependencies": {
+    "@types/chai": "^3.4.28",
+    "@types/jasmine": "^2.2.29",
+    "@types/jasmine-ajax": "^3.1.27",
+    "@types/requirejs": "^2.1.26"
+  },
+  "homepage": "https://github.com/syncfusion/ej2-popups#readme",
+  "keywords": [
+    "ej2",
+    "syncfusion",
+    "ej2-dialog",
+    "ej2-popups",
+    "dialog",
+    "window",
+    "modal",
+    "popup",
+    "alert",
+    "prompt",
+    "modeless",
+    "dialog box",
+    "confirm box",
+    "confirmation dialog",
+    "message box",
+    "custom dialog"
+  ],
+  "license": "SEE LICENSE IN license",
+  "module": "dist/es6/index.js",
+  "name": "@syncfusion/ej2-popups",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncfusion/ej2-popups.git"
+  },
+  "version": "15.4.17"
+}

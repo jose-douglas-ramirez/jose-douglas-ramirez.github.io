@@ -1,0 +1,18 @@
+﻿@include export-module('input-icons') {
+  @mixin clear-icon {
+    content: $input-clear-icon-font;
+    font-family: 'e-icons';
+  }
+
+  .e-float-input {
+    .e-clear-icon::before {
+      @include clear-icon;
+    }
+  }
+
+  .e-input-group {
+    .e-clear-icon::before {
+      @include clear-icon;
+    }
+  }
+}

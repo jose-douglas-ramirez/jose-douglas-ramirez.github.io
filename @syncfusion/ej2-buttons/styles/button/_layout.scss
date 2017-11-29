@@ -1,0 +1,264 @@
+﻿@include export-module('button-layout') {
+  /*! button layout */
+  .e-btn {
+    border: $btn-border;
+    border-radius: $btn-border-radius;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $font-family;
+    font-size: $btn-font-size;
+    font-weight: $btn-font-weight;
+    height: $btn-height;
+    justify-content: center;
+    line-height: $btn-text-line-height;
+    outline: none;
+    padding: $btn-padding;
+    text-align: center;
+    text-decoration: none;
+    text-transform: $btn-text-transform;
+    user-select: none;
+    white-space: nowrap;
+    @at-root {
+      &:disabled {
+        cursor: default;
+      }
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+
+      // sass-lint:disable no-vendor-prefixes
+      &::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+      }
+
+      & .e-btn-icon {
+        display: inline-block;
+        font-size: $btn-icon-font-size;
+        height: 25px;
+        line-height: 25px;
+        margin-top: -2px;
+        vertical-align: middle;
+        width: auto;
+
+        &.e-icon-left {
+          margin-left: $btn-icon-margin-left;
+          width: 27px;
+        }
+
+        &.e-icon-right {
+          margin-right: $btn-icon-margin-right;
+          width: 27px;
+        }
+      }
+
+      &.e-icon-btn {
+        padding: $btn-icon-padding;
+      }
+
+      &.e-round {
+        border-radius: 50%;
+        height: $btn-round-height;
+        line-height: 1;
+        padding: 0;
+        width: $btn-round-width;
+
+        & .e-btn-icon {
+          font-size: $btn-round-font-size;
+          height: 24px;
+          line-height: $btn-round-icon-line-height;
+          width: auto;
+        }
+      }
+
+      &.e-rtl {
+        & .e-icon-right {
+          margin-left: $btn-icon-margin-left;
+          margin-right: 0;
+        }
+
+        & .e-icon-left {
+          margin-left: 0;
+          margin-right: $btn-icon-margin-right;
+        }
+      }
+
+      &.e-flat {
+        border: $btn-flat-border;
+      }
+
+      &.e-small {
+        font-size: $btn-small-font-size;
+        height: $btn-small-height;
+        line-height: $btn-small-text-line-height;
+        padding: $btn-small-padding;
+
+        & .e-btn-icon {
+          font-size: $btn-small-icon-font-size;
+          height: 22px;
+          line-height: 22px;
+          width: 12px;
+
+          &.e-icon-left {
+            margin-left: $btn-icon-margin-left;
+            width: 24px;
+          }
+
+          &.e-icon-right {
+            margin-right: $btn-icon-margin-right;
+            width: 24px;
+          }
+        }
+
+        &.e-icon-btn {
+          padding: $btn-small-icon-padding;
+        }
+
+        &.e-round {
+          height: $btn-round-small-height;
+          line-height: 1;
+          padding: 0;
+          width: $btn-round-small-width;
+
+          & .e-btn-icon {
+            font-size: $btn-small-round-font-size;
+            height: 16px;
+            line-height: $btn-small-round-icon-line-height;
+            width: auto;
+          }
+        }
+
+        &.e-rtl {
+          & .e-icon-right {
+            margin-left: $btn-icon-margin-left;
+            margin-right: 0;
+          }
+
+          & .e-icon-left {
+            margin-left: 0;
+            margin-right: $btn-icon-margin-right;
+          }
+        }
+      }
+
+      &.e-block {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  .e-bigger {
+    &.e-btn,
+    & .e-btn {
+      font-size: $btn-bigger-font-size;
+      height: $btn-bigger-height;
+      line-height: $btn-bigger-text-line-height;
+      padding: $btn-bigger-padding;
+
+      & .e-btn-icon {
+        font-size: $btn-bigger-icon-font-size;
+        height: 34px;
+        line-height: 34px;
+        width: 18px;
+
+        &.e-icon-left {
+          margin-left: $btn-bigger-icon-margin-left;
+          width: 36px;
+        }
+
+        &.e-icon-right {
+          margin-right: $btn-bigger-icon-margin-right;
+          width: 36px;
+      }
+    }
+
+      &.e-icon-btn {
+        padding: $btn-bigger-icon-padding;
+      }
+
+      &.e-round {
+        height: $btn-round-bigger-height;
+        line-height: 1;
+        padding: 0;
+        width: $btn-round-bigger-width;
+
+        & .e-btn-icon {
+          font-size: $btn-bigger-round-font-size;
+          height: 24px;
+          line-height: 28px;
+          width: auto;
+        }
+      }
+
+      &.e-rtl {
+        & .e-icon-right {
+          margin-left: $btn-bigger-icon-margin-left;
+          margin-right: 0;
+        }
+
+        & .e-icon-left {
+          margin-left: 0;
+          margin-right: $btn-bigger-icon-margin-right;
+        }
+      }
+
+      &.e-small {
+        font-size: $btn-bigger-small-font-size;
+        height: $btn-bigger-small-height;
+        line-height: $btn-bigger-small-text-line-height;
+        padding: $btn-bigger-small-padding;
+
+        & .e-btn-icon {
+          font-size: $btn-bigger-small-icon-font-size;
+          height: 30px;
+          line-height: 30px;
+          width: 16px;
+
+          &.e-icon-left {
+            margin-left: $btn-bigger-small-icon-margin-left;
+            width: 32px;
+          }
+
+          &.e-icon-right {
+            margin-right: $btn-bigger-small-icon-margin-right;
+            width: 32px;
+          }
+        }
+
+        &.e-icon-btn {
+          padding: $btn-bigger-small-icon-padding;
+        }
+
+        &.e-round {
+          height: $btn-round-bigger-small-height;
+          line-height: 1;
+          padding: 0;
+          width: $btn-round-bigger-small-width;
+
+          & .e-btn-icon {
+            font-size: $btn-bigger-small-round-font-size;
+            height: 24px;
+            line-height: 28px;
+            width: auto;
+          }
+        }
+
+        &.e-rtl {
+          & .e-icon-right {
+            margin-left: $btn-bigger-small-icon-margin-left;
+            margin-right: 0;
+          }
+
+          & .e-icon-left {
+            margin-left: 0;
+            margin-right: $btn-bigger-small-icon-margin-right;
+          }
+        }
+      }
+    }
+  }
+}

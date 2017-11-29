@@ -1,0 +1,58 @@
+{
+  "_from": "@syncfusion/ej2-buttons@^15.4.17",
+  "_id": "@syncfusion/ej2-buttons@15.4.17",
+  "_inBundle": false,
+  "_integrity": "sha1-WtWZ1NbvapGZynd0K96xKJYyL68=",
+  "_location": "/@syncfusion/ej2-buttons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@syncfusion/ej2-buttons@^15.4.17",
+    "name": "@syncfusion/ej2-buttons",
+    "escapedName": "@syncfusion%2fej2-buttons",
+    "scope": "@syncfusion",
+    "rawSpec": "^15.4.17",
+    "saveSpec": null,
+    "fetchSpec": "^15.4.17"
+  },
+  "_requiredBy": [
+    "/@syncfusion/ej2-popups"
+  ],
+  "_resolved": "https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-15.4.17.tgz",
+  "_shasum": "5ad599d4d6ef6a9199ca77742bdeb12896322faf",
+  "_spec": "@syncfusion/ej2-buttons@^15.4.17",
+  "_where": "E:\\Nova\\nsu\\node_modules\\@syncfusion\\ej2-popups",
+  "author": {
+    "name": "Syncfusion Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/syncfusion/ej2-buttons/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@syncfusion/ej2-base": "^15.4.17"
+  },
+  "deprecated": false,
+  "description": "Essential JS 2 Button Components",
+  "devDependencies": {
+    "@types/chai": "^3.4.28",
+    "@types/jasmine": "^2.2.29",
+    "@types/jasmine-ajax": "^3.1.27",
+    "@types/requirejs": "^2.1.26"
+  },
+  "homepage": "https://github.com/syncfusion/ej2-buttons#readme",
+  "keywords": [
+    "ej2",
+    "syncfusion",
+    "ej2-buttons"
+  ],
+  "license": "SEE LICENSE IN license",
+  "module": "dist/es6/index.js",
+  "name": "@syncfusion/ej2-buttons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncfusion/ej2-buttons.git"
+  },
+  "version": "15.4.17"
+}

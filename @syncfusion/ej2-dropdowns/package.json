@@ -1,0 +1,50 @@
+{
+  "_from": "@syncfusion/ej2-dropdowns@^15.4.17",
+  "_id": "@syncfusion/ej2-dropdowns@15.4.19",
+  "_inBundle": false,
+  "_integrity": "sha1-7UWDzjqO67EqwLHLQ99SaOik1uQ=",
+  "_location": "/@syncfusion/ej2-dropdowns",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@syncfusion/ej2-dropdowns@^15.4.17",
+    "name": "@syncfusion/ej2-dropdowns",
+    "escapedName": "@syncfusion%2fej2-dropdowns",
+    "scope": "@syncfusion",
+    "rawSpec": "^15.4.17",
+    "saveSpec": null,
+    "fetchSpec": "^15.4.17"
+  },
+  "_requiredBy": [
+    "/@syncfusion/ej2-react-dropdowns"
+  ],
+  "_resolved": "https://registry.npmjs.org/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-15.4.19.tgz",
+  "_shasum": "ed4583ce3a8eebb12ac0b1cb43df5268e8a4d6e4",
+  "_spec": "@syncfusion/ej2-dropdowns@^15.4.17",
+  "_where": "E:\\Nova\\nsu\\node_modules\\@syncfusion\\ej2-react-dropdowns",
+  "author": {
+    "name": "Syncfusion Inc."
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@syncfusion/ej2-base": "^15.4.19",
+    "@syncfusion/ej2-data": "^15.4.17",
+    "@syncfusion/ej2-inputs": "^15.4.17",
+    "@syncfusion/ej2-lists": "^15.4.17",
+    "@syncfusion/ej2-popups": "^15.4.17"
+  },
+  "deprecated": false,
+  "description": "Essential JS 2 DropDown Components",
+  "devDependencies": {
+    "@types/chai": "^3.4.28",
+    "@types/es6-promise": "0.0.28",
+    "@types/jasmine": "^2.2.29",
+    "@types/jasmine-ajax": "^3.1.27",
+    "@types/requirejs": "^2.1.26"
+  },
+  "license": "SEE LICENSE IN license",
+  "module": "dist/es6/index.js",
+  "name": "@syncfusion/ej2-dropdowns",
+  "version": "15.4.19"
+}

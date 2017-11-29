@@ -1,0 +1,47 @@
+{
+  "_from": "@syncfusion/ej2-data@^15.4.17",
+  "_id": "@syncfusion/ej2-data@15.4.17",
+  "_inBundle": false,
+  "_integrity": "sha1-jIaaCbS8mGhwjhIm8RbM2gLKgBc=",
+  "_location": "/@syncfusion/ej2-data",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@syncfusion/ej2-data@^15.4.17",
+    "name": "@syncfusion/ej2-data",
+    "escapedName": "@syncfusion%2fej2-data",
+    "scope": "@syncfusion",
+    "rawSpec": "^15.4.17",
+    "saveSpec": null,
+    "fetchSpec": "^15.4.17"
+  },
+  "_requiredBy": [
+    "/@syncfusion/ej2-dropdowns",
+    "/@syncfusion/ej2-lists"
+  ],
+  "_resolved": "https://registry.npmjs.org/@syncfusion/ej2-data/-/ej2-data-15.4.17.tgz",
+  "_shasum": "8c869a09b4bc9868708e1226f116ccda02ca8017",
+  "_spec": "@syncfusion/ej2-data@^15.4.17",
+  "_where": "E:\\Nova\\nsu\\node_modules\\@syncfusion\\ej2-dropdowns",
+  "author": {
+    "name": "Syncfusion Inc."
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@syncfusion/ej2-base": "^15.4.17"
+  },
+  "deprecated": false,
+  "description": "Essential JS 2 DataManager",
+  "devDependencies": {
+    "@types/chai": "^3.4.28",
+    "@types/es6-promise": "0.0.28",
+    "@types/jasmine": "^2.2.29",
+    "@types/jasmine-ajax": "^3.1.27",
+    "@types/requirejs": "^2.1.26"
+  },
+  "license": "SEE LICENSE IN license",
+  "module": "dist/es6/index.js",
+  "name": "@syncfusion/ej2-data",
+  "version": "15.4.17"
+}
