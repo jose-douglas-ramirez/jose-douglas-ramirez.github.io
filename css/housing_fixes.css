@@ -1,2 +1,9 @@
 #criminal_record_0, #criminal_record_1{float: none;
 }
+
+#maincontent > div.crossFade.ng-scope > form > div:nth-child(6) > span:nth-child(1) > label:nth-child(3),
+#maincontent > div.crossFade.ng-scope > form > div:nth-child(6) > span:nth-child(1) > label:nth-child(5),
+#maincontent > div.crossFade.ng-scope > form > div:nth-child(6) > span:nth-child(2) > label:nth-child(3),
+#maincontent > div.crossFade.ng-scope > form > div:nth-child(6) > span:nth-child(2) > label:nth-child(5){
+	float: left;
+}
