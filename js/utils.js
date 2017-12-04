@@ -1,6 +1,6 @@
-houseContact = window.houseContact || {};
+houseContract = window.houseContract || {};
 
-houseContact = function () {
+houseContract = function () {
 
     var attempNumber = 4;
     var currentAttemp = 1;
