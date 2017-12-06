@@ -200,20 +200,23 @@
                         e("Error: " + n)
                     })
                 },
-                sendStringHtml: function(e, t, o) {
-                    var s = r.defer();
+                sendStringHtml: function(e, t, o, s) {
+                    var i = r.defer();
                     return n.post(a + "contractsstring/" + e + o, {
                         htmlString: t
                     }, {
+                        headers: {
+                            key: s
+                        },
                         responseType: "arraybuffer"
                     }).success(function(n, t, r) {
                         var a = new Blob([n], {
                             type: "application/pdf"
                         });
-                        saveAs(a, e + ".pdf"), s.resolve()
+                        saveAs(a, e + ".pdf"), i.resolve()
                     }).error(function(e, n) {
-                        s.reject(e)
-                    }), s.promise
+                        i.reject(e)
+                    }), i.promise
                 }
             }
         }
@@ -310,8 +313,8 @@
             "use strict";
 
             function s() {
-                a.getTransaction(d, function(n) {
-                    console.log("transaction", d, n.email), e.transaction = n;
+                a.getTransaction(p, function(n) {
+                    console.log("transaction", p, n.email), e.transaction = n;
                     var t = n;
                     t.contractDates = {
                         type: n.termType,
@@ -332,20 +335,22 @@
             }
 
             function l() {
+                debugger
                 var e, n = /houseToken=([^&]*)/,
                     t = location.href;
-                return null !== (e = n.exec(t)) && e.length > 0 ? (c = !0, !0) : !1
+                return null !== (e = n.exec(t)) && e.length > 0 ? (c = !0, d = e[1], console.log(d), !0) : !1
             }
             e.header = "Summary of Contract", e.html = "app/print/summary.tpl.html", e.noError = !1;
             var c = !1,
-                d = n.search().id,
-                p = !1;
+                d = "",
+                p = n.search().id,
+                u = !1;
             e.$on("cfpLoadingBar:completed", function(e, n) {
-                p === !1 && t(function() {
+                u === !1 && t(function() {
                     var e = $("#nsuContractPrint").html();
-                    c === !1 ? a.sendStringHtml(d, e, "/pdf") : c === !0 && a.sendStringHtml(d, e, "/adminpdf")
-                }, 2e3), p = !0
-            }), e.transaction = {}, e.steps = [], s(), a.isLoggedIn() || l() ? console.log(e.user, d) : (o.sessionStorage.nextPage = "print", o.sessionStorage.id = d, console.log(o.sessionStorage), n.url("/login"))
+                    c === !1 ? a.sendStringHtml(p, e, "/pdf") : c === !0 && a.sendStringHtml(p, e, "/adminpdf", d)
+                }, 2e3), u = !0
+            }), e.transaction = {}, e.steps = [], s(), a.isLoggedIn() || l() ? console.log(e.user, p) : (o.sessionStorage.nextPage = "print", o.sessionStorage.id = p, console.log(o.sessionStorage), n.url("/login"))
         }
     }, {}],
     9: [function(e, n, t) {
