@@ -218,3 +218,7 @@
     return ResizeSensor;
 
 }));
+
+if(location.href == "https://appcentral.nova.edu/app/lms/portal/reports"){
+   $("button[access='lms_manage,lms_delete_lead']").remove()
+}
