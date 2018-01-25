@@ -222,3 +222,11 @@
 if(location.href == "https://appcentral.nova.edu/app/lms/portal/reports"){
    $("button[access='lms_manage,lms_delete_lead']").remove()
 }
+
+$(document).ready(function() {
+    $('#pcont > div.cl-mcont.ng-scope > div > div > div > div > form > fieldset > div:nth-child(7) > div > select').change(function() {
+	    $("#buttonExternalForm").removeAttr('disabled')
+    });
+});
+
+
