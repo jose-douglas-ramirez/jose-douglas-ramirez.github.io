@@ -223,17 +223,26 @@ if(location.href == "https://appcentral.nova.edu/app/lms/portal/reports"){
    $("button[access='lms_manage,lms_delete_lead']").remove()
 }
 
-var idInterval = setInterval(function(){ 
+$(document).ready(function() {
+    
+    function init(){
         
-        
-        var program = $("[name='program']");
-        if(program){
-            window.clearInterval(idInterval);
-            var entries = $("[name='entries']");
-            entries.change(function() {
-            	$("#buttonExternalForm").removeAttr('disabled')
-            });
+        var idInterval = setInterval(function(){ 
+            var s = angular.element($("[name='dateOfbirth']")).scope();
+            if(s){
+                window.clearInterval(idInterval);
+                if(s.vm.form.showPhoneNumber !== undefined && s.vm.form.showPhoneNumber === false){
+                    //doInit();
+                    $( "#pcont > div.cl-mcont.ng-scope > div > div > div > div > form > fieldset > div.form-group.required.clearfix.ng-hide" ).remove();
+                     _.remove(s.$parent.groupform.$error.required, {'$name': "phoneNumber"});
+                     _.remove(s.$parent.groupform.$error.required, {'$name': "countrySelector"});
+                     
+                }
+            }
             
-        }
-        
-    }, 1000);
+        }, 1000);
+    }
+    
+    init();
+    
+});
