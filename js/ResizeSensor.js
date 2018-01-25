@@ -225,8 +225,14 @@ if(location.href == "https://appcentral.nova.edu/app/lms/portal/reports"){
 
 $(document).ready(function() {
     $('#pcont > div.cl-mcont.ng-scope > div > div > div > div > form > fieldset > div:nth-child(7) > div > select').change(function() {
+	    console.log('issue')
 	    $("#buttonExternalForm").removeAttr('disabled')
     });
+});
+
+$('#pcont > div.cl-mcont.ng-scope > div > div > div > div > form > fieldset > div:nth-child(7) > div > select').change(function() {
+    console.log('issue')
+    $("#buttonExternalForm").removeAttr('disabled')
 });
 
 
